@@ -1,6 +1,6 @@
 ## Introduction
 
-Diffusion models have emerged as a powerful framework for generative modeling, achieving state-of-the-art results in tasks such as image synthesis and density estimation. These models are typically formulated in a probabilistic setting, where the goal is to learn a generative process that, given i.i.d. samples from an unknown target distribution \( \mu \), can generate new samples from the same distribution. Diffusion models achieve this by learning the score function, i.e., the gradient of the log-likelihood.
+Diffusion models have emerged as a powerful framework for generative modeling, achieving state-of-the-art results in tasks such as image synthesis and density estimation. These models are typically formulated in a probabilistic setting, where the goal is to learn a generative process that, given i.i.d. samples from an unknown target distribution $\mu$, can generate new samples from the same distribution. Diffusion models achieve this by learning the score function, i.e., the gradient of the log-likelihood.
 
 After briefly comparing diffusion models with other approaches used in generative modeling, we introduce methods for learning the score function, such as score matching [3] and denoising score matching [4]. Once the score function is learned, we explore various sampling algorithms, including *annealed Langevin dynamics* [6], *denoising diffusion probabilistic models (DDPM)* [7], *score-based generative modeling via SDEs* [8], in particular with the OU process, and *stochastic localization* [9].
 
