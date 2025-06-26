@@ -6,7 +6,7 @@ After briefly comparing diffusion models with other approaches used in generativ
 
 We then analyze key results from the paper by Montanari [9], which provides further insights into the empirical properties of these methods. In the end, following the approach of Shah et al. [10], we study the convergence properties of stochastic localization when applied to a two-component Gaussian mixture model.
 
-All code used to produce the results and figures in this work is available at the [Author’s GitHub](https://github.com/).
+All code used to produce the results and figures in this work is available here.
 
 ---
 
