@@ -1,4 +1,4 @@
-## Diffusion Models: theoretical background and a case study with stochastic localisation
+## Theoretical Foundations of Score-Based Modeling and a Case Study on Stochastic Localization
 
 Diffusion models have emerged as a powerful framework for generative modeling, achieving state-of-the-art results in tasks such as image synthesis and density estimation. These models are typically formulated in a probabilistic setting, where the goal is to learn a generative process that, given i.i.d. samples from an unknown target distribution $\mu$, can generate new samples from the same distribution. Diffusion models achieve this by learning the score function, i.e., the gradient of the log-likelihood.
 
